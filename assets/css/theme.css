@@ -215,7 +215,7 @@ main {
    ============================================ */
 
 .site-logo-link {
-  position: fixed;
+  position: absolute;
   top: var(--space-md);
   left: var(--space-md);
   z-index: 1000;
