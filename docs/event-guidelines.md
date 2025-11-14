@@ -535,6 +535,7 @@ Include any shared component:
 3. **Use shared header/footer** for navigation consistency
 4. **Make it responsive** (test on mobile)
 5. **Document custom fields** in comments or separate doc
+6. **Mobile header spacing** - If creating custom headers, add `padding-top: 60px` on mobile (`max-width: 768px`) to prevent overlap with the fixed theme toggle. The shared header component (`{% include header.html event=event %}`) already includes this spacing.
 
 ---
 

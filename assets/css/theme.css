@@ -317,6 +317,12 @@ main {
     top: var(--space-sm);
     right: var(--space-sm);
   }
+
+  /* Add padding to headers to prevent theme toggle overlap */
+  .event-header,
+  .page-header {
+    padding-top: 60px;
+  }
 }
 
 @media (max-width: 480px) {

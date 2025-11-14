@@ -139,8 +139,12 @@
 }
 
 .abstract-content p {
-  margin: 0;
+  margin-bottom: 0.5em; /* Half line spacing between paragraphs */
   color: var(--text-secondary);
+}
+
+.abstract-content p:last-child {
+  margin-bottom: 0; /* Remove margin from last paragraph */
 }
 
 /* Talk Links */
