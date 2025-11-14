@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: "Poster Event" }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/theme.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/poster.css' | relative_url }}">
+  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+</head>
+<body>
+  {% include theme-toggle.html %}
+
+  <main>
+    {% assign event_path = page.path | split: '/' %}
+    {% assign event_folder = event_path[-2] %}
+    {% assign event = site.data.events[event_folder] %}
+
+    {% include header.html event=event %}
+
+    <div class="poster-content">
+      {% if event.poster_file %}
+      <div class="poster-preview">
+        <a href="{{ event.poster_file | relative_url }}" class="poster-link" target="_blank" rel="noopener">
+          <div class="poster-placeholder">
+            <span class="poster-icon">📄</span>
+            <span class="poster-text">View Poster (PDF)</span>
+          </div>
+        </a>
+      </div>
+      {% endif %}
+
+      {% if event.authors %}
+      <div class="poster-authors">
+        <h2>Authors</h2>
+        <ul>
+          {% for author in event.authors %}
+          <li>{{ author }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      {% if event.abstract %}
+      <div class="poster-abstract">
+        <h2>Abstract</h2>
+        <p>{{ event.abstract }}</p>
+      </div>
+      {% endif %}
+
+      {% if event.links %}
+      <div class="poster-links">
+        <h2>Additional Resources</h2>
+        <div class="links-container">
+          {% for link in event.links %}
+            {% if link.file %}
+              <a href="{{ link.file | relative_url }}" class="resource-link" target="_blank" rel="noopener">
+                📎 {{ link.text }}
+              </a>
+            {% elsif link.url %}
+              <a href="{{ link.url }}" class="resource-link" target="_blank" rel="noopener">
+                🔗 {{ link.text }}
+              </a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: "Custom Event" }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/theme.css' | relative_url }}">
+  <!-- Add your custom CSS here -->
+  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+</head>
+<body>
+  {% include theme-toggle.html %}
+
+  <main>
+    {% comment %}
+      Load event data from event.yml
+      Access event properties like: event.name, event.date, etc.
+    {% endcomment %}
+    {% assign event_path = page.path | split: '/' %}
+    {% assign event_folder = event_path[-2] %}
+    {% assign event = site.data.events[event_folder] %}
+
+    {% include header.html event=event %}
+
+    {% comment %}
+      ====================================
+      CUSTOM CONTENT AREA
+      ====================================
+      Add your custom HTML and Liquid code here.
+      You can access event data via the 'event' variable.
+
+      Examples:
+        {{ event.name }} - Event name
+        {{ event.custom_field }} - Any custom field from event.yml
+        {% for item in event.custom_array %} - Loop through arrays
+
+      Available shared components:
+        {% include header.html event=event %}
+        {% include footer.html %}
+        {% include theme-toggle.html %}
+    {% endcomment %}
+
+    <div class="custom-content">
+      <p>This is a custom template. Edit <code>_layouts/custom.html</code> to customize.</p>
+
+      <h2>Event Data Available:</h2>
+      <ul>
+        <li><strong>Name:</strong> {{ event.name }}</li>
+        <li><strong>Date:</strong> {{ event.date }}</li>
+        <li><strong>Location:</strong> {{ event.location }}</li>
+        <li><strong>Type:</strong> {{ event.type }}</li>
+      </ul>
+
+      {% comment %} Add your custom sections here {% endcomment %}
+    </div>
+  </main>
+
+  {% include footer.html %}
+
+  <!-- Add your custom JavaScript here -->
+</body>
+</html>
