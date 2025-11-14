@@ -1,0 +1,31 @@
+---
+layout: none
+permalink: /404.html
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found - Physics PGR Events</title>
+  <link rel="stylesheet" href="{{ '/assets/css/theme.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/404.css' | relative_url }}">
+  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+</head>
+<body>
+  {% include theme-toggle.html %}
+
+  <main>
+    <div class="error-container">
+      <h1 class="error-code">404</h1>
+      <h2 class="error-title">Page Not Found</h2>
+      <p class="error-message">
+        This page does not exist. Please return to the home page to find a list of available events.
+      </p>
+      <a href="{{ '/' | relative_url }}" class="home-button">Go to Home Page</a>
+    </div>
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>

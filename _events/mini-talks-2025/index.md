@@ -1,4 +1,4 @@
 ---
 layout: rota
-permalink: /events/birmingham-phd-gareth/
+permalink: /events/mini-talks-2025/
 ---

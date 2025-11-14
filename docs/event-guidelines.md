@@ -179,7 +179,7 @@ links:
     url: "https://github.com/..."
 ```
 
-**Complete example**: See `_data/events/birmingham-phd-gareth.yml`
+**Complete example**: See `_data/events/mini-talks-2025.yml`
 
 ---
 
