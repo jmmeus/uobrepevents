@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: "Event" }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/theme.css' | relative_url }}">
+  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+</head>
+<body>
+  {% include theme-toggle.html %}
+
+  <main>
+    {% assign event_path = page.path | split: '/' %}
+    {% assign event_folder = event_path[-2] %}
+    {% assign event = site.data.events[event_folder] %}
+
+    {% include header.html event=event %}
+
+    <article class="simple-content">
+      {{ content }}
+
+      {% if event.content %}
+      <div class="event-body">
+        {{ event.content | markdownify }}
+      </div>
+      {% endif %}
+    </article>
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>

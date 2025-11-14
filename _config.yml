@@ -10,6 +10,14 @@ collections:
     output: true
     permalink: /events/:name/
 
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "events"
+    values:
+      layout: "event"
+
 # Build settings
 markdown: kramdown
 theme: null  # We're using custom layouts

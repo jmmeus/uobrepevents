@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: "Event" }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/theme.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/rota.css' | relative_url }}">
+  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+</head>
+<body>
+  {% include theme-toggle.html %}
+
+  <main>
+    {% comment %} Load event data from event.yml {% endcomment %}
+    {% assign event_path = page.path | split: '/' %}
+    {% assign event_folder = event_path[-2] %}
+    {% assign event = site.data.events[event_folder] %}
+
+    {% include header.html event=event %}
+
+    {% include abstract-toggle.html %}
+
+    <div class="talks-container">
+      {% for talk in event.talks %}
+        {% if talk.type == "break" %}
+          {%comment %} Render break card {% endcomment %}
+          <div class="talk-card talk-card-break">
+            <div class="talk-time">
+              <span class="time-start">{{ talk.start }}</span>
+              <span class="time-separator">-</span>
+              <span class="time-end">{{ talk.end }}</span>
+            </div>
+            <div class="talk-content">
+              <h3 class="break-label">☕ {{ talk.label }}</h3>
+            </div>
+          </div>
+        {% else %}
+          {%comment %} Render regular talk card {% endcomment %}
+          <article class="talk-card">
+            <div class="talk-time">
+              <span class="time-start">{{ talk.start }}</span>
+              <span class="time-separator">-</span>
+              <span class="time-end">{{ talk.end }}</span>
+            </div>
+
+            <div class="talk-content">
+              <div class="talk-header">
+                <h3 class="talk-title">{{ talk.title }}</h3>
+                <div class="talk-meta">
+                  <span class="talk-speaker">{{ talk.speaker }}</span>
+                  {% if talk.group %}
+                  <span class="talk-group"> • {{ talk.group }}</span>
+                  {% endif %}
+                </div>
+              </div>
+
+              {% if talk.abstract %}
+              <div class="abstract-container">
+                <button class="abstract-toggle-btn" aria-expanded="false">
+                  <span class="toggle-icon">▶</span>
+                  <span class="toggle-text">Show abstract</span>
+                </button>
+                <div class="abstract-content" hidden>
+                  <p>{{ talk.abstract }}</p>
+                </div>
+              </div>
+              {% endif %}
+
+              {% if talk.links %}
+              <div class="talk-links">
+                {% for link in talk.links %}
+                  {% if link.file %}
+                    <a href="{{ link.file | relative_url }}" class="talk-link" target="_blank" rel="noopener">
+                      📄 {{ link.text }}
+                    </a>
+                  {% elsif link.url %}
+                    <a href="{{ link.url }}" class="talk-link" target="_blank" rel="noopener">
+                      🔗 {{ link.text }}
+                    </a>
+                  {% endif %}
+                {% endfor %}
+              </div>
+              {% endif %}
+            </div>
+          </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </main>
+
+  {% include footer.html %}
+
+  <script src="{{ '/assets/js/abstract.js' | relative_url }}"></script>
+</body>
+</html>
