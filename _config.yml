@@ -1,0 +1,34 @@
+# Site settings
+title: "UoB Research Events"
+description: "University of Birmingham Research Events System"
+baseurl: "" # Leave empty for org sites, or "/repo-name" for project sites
+url: "https://username.github.io" # Your GitHub Pages URL
+
+# Collections
+collections:
+  events:
+    output: true
+    permalink: /events/:name/
+
+# Build settings
+markdown: kramdown
+theme: null  # We're using custom layouts
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Timezone (adjust as needed)
+timezone: Europe/London
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - .git/
+  - .github/
+  - README.md
+  - docs/milestone-*.md
