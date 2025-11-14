@@ -62,7 +62,7 @@
                   <span class="toggle-text">Show abstract</span>
                 </button>
                 <div class="abstract-content" hidden>
-                  <p>{{ talk.abstract }}</p>
+                  {{ talk.abstract | markdownify }}
                 </div>
               </div>
               {% endif %}
