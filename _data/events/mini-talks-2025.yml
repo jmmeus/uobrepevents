@@ -1,0 +1,157 @@
+type: rota
+name: "Mini-Talks Event - November 2025"
+slug: "mini-talks-2025"
+date: "2025-11-26"
+start_time: "14:00"
+end_time: "16:00"
+location: "Physics West 115"
+description: >
+  A Mini-Talks afternoon for PhD students to practise presenting, share research
+  across the cohort, and catch up with fellow PGR students in an informal setting.
+
+talks:
+  - start: "14:00"
+    end: "14:10"
+    speaker: "Luke Williams"
+    title: "Impact of dark matter on supermassive black hole merger rates"
+    group: "ASR? Extragalactic?"
+    abstract: >
+      The connection between dark matter properties and...and characteristic strain
+      from all the SMBH mergers per model.
+    links:
+      # - text: "Slides"
+      #   file: ""
+      # - text: "Related Paper"
+      #   url: ""
+
+  - start: "14:10"
+    end: "14:20"
+    speaker: "Claire Rosemary Munro"
+    title: "Spin Resolved ARPES"
+    group: "Markovic's Group Condensed Matter"
+    abstract: >
+      Angle resolved photoemission spectroscopy (ARPES) is a powerful spectroscopic
+      technique for investigating the electronic structure of crystalline materials. 
+      This talk discusses the principles of ARPES and the added capability of spin
+      resolution.
+    links:
+      # - text: "Slides"
+      #   file: ""
+      # - text: "Related Paper"
+      #   url: ""
+
+  - start: "14:20"
+    end: "14:30"
+    speaker: "Patrick Galvin"
+    title: "Large momentum transfer atom interferometry for ultra-precise quantum sensors"
+    group: "Quantum Sensing / Atom Interferometry"
+    abstract: >
+      Atom interferometry is the matter-wave analogue to optical interferometry.
+      Large momentum transfer beam splitters greatly enhance sensitivity; this talk
+      investigates techniques to further enhance large momentum transfer.
+    links:
+      # - text: "Slides"
+      #   file: ""
+      # - text: "Related Paper"
+      #   url: ""
+
+  - start: "14:30"
+    end: "14:40"
+    speaker: "Dylan Gower"
+    title: "awaiting title"
+    group: "awaiting group"
+    abstract: "awaiting abstract"
+    links:
+      # - text: "Slides"
+      #   file: ""
+      # - text: "Related Paper"
+      #   url: ""
+
+  - start: "14:40"
+    end: "14:50"
+    speaker: "Aleyna Adamson"
+    title: "Over 6000 exoplanets have been discovered outside our Solar System"
+    group: "SSE"
+    abstract: >
+      Over 6000 exoplanets have been discovered outside our Solar System. This talk
+      discusses recent discoveries and methods, highlighting the challenges in
+      characterising small temperate planets.
+    links:
+      # - text: "Slides"
+      #   file: ""
+      # - text: "Related Paper"
+      #   url: ""
+
+  - type: break
+    start: "14:50"
+    end: "15:05"
+    label: "Break"
+
+  - start: "15:05"
+    end: "15:15"
+    speaker: "Kabeer Abdulhusein"
+    title: "Novel method using magnetic tweezers for the detection of proteins"
+    group: "Quantum Biology / Biophysics"
+    abstract: >
+      Magnetic tweezers are a versatile tool used for the investigation of nucleic
+      acids and protein interactions. This talk discusses their application toward
+      sensitive protein detection.
+    links:
+      # - text: "Slides"
+      #   file: ""
+      # - text: "Related Paper"
+      #   url: ""
+
+  - start: "15:15"
+    end: "15:25"
+    speaker: "Eddie Bannister"
+    title: "Hunting asymmetric dark matter via gravitational waves"
+    group: "Gravitational Waves / Theory"
+    abstract: >
+      If dark matter is asymmetric, primordial black holes may form with unique
+      mass distributions. This talk covers how gravitational wave signatures can be
+      used to probe asymmetric dark matter scenarios.
+    links:
+      # - text: "Slides"
+      #   file: ""
+      # - text: "Related Paper"
+      #   url: ""
+
+  - start: "15:25"
+    end: "15:35"
+    speaker: "Aidan Brzakalik"
+    title: "Differentiable simulations of galaxy evolution"
+    group: "Astrophysics"
+    abstract: >
+      Differentiable simulations enable gradient-based optimisation in modelling
+      galaxy evolution. This talk outlines early work on scalable differentiable
+      frameworks and their potential applications.
+    links:
+      # - text: "Slides"
+      #   file: ""
+      # - text: "Related Paper"
+      #   url: ""
+
+  - start: "15:35"
+    end: "15:45"
+    speaker: "Thomas Thory-Rao"
+    title: "ATLAS ITk Upgrade"
+    group: "Particle Physics"
+    abstract: >
+      Proton irradiation of silicon strip sensors for quality assurance within the
+      Birmingham MC40 cyclotron facility, supporting development for the ATLAS ITk
+      upgrade.
+    links:
+      # - text: "Slides"
+      #   file: ""
+      # - text: "Related Paper"
+      #   url: ""
+
+  - start: "15:45"
+    end: "16:00"
+    speaker: "Panel Discussion"
+    title: "Q&A and Closing Remarks"
+    group: "All speakers"
+    links:
+      # - text: "Notes"
+      #   file: ""
