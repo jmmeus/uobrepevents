@@ -16,7 +16,7 @@ talks:
     abstract: "This talk explores novel approaches to generating and manipulating quantum entanglement in photonic systems. We present recent experimental results demonstrating high-fidelity entanglement generation and discuss applications in quantum computing and secure communication."
     links:
       - text: "Slides"
-        file: "assets/slides.pdf"
+        file: "assets/events/birmingham-phd-gareth/slides.pdf"
       - text: "Paper"
         url: "https://arxiv.org/abs/example"
 

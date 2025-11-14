@@ -1,8 +1,8 @@
 # Site settings
 title: "UoB Research Events"
 description: "University of Birmingham Research Events System"
-baseurl: "" # Leave empty for org sites, or "/repo-name" for project sites
-url: "https://username.github.io" # Your GitHub Pages URL
+baseurl: "/uobrepevents" # Leave empty for org sites, or "/repo-name" for project sites
+url: "https://jmmeus.github.io" # Your GitHub Pages URL
 
 # Collections
 collections:
@@ -35,7 +35,7 @@ email: "events@example.ac.uk"
 
 # GitHub repository (auto-populated by GitHub Pages, but can override)
 github:
-  repository_url: "https://github.com/username/repo"
+  repository_url: "https://github.com/jmmeus/uobrepevents"
 
 # Exclude from processing
 exclude:
