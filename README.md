@@ -1,4 +1,4 @@
-# UoB Research Events
+# UoB Physics PGR Events
 
 A modular GitHub Pages system for hosting research event schedules, posters, and information.
 
