@@ -211,6 +211,53 @@ main {
 }
 
 /* ============================================
+   Site Logo Styles
+   ============================================ */
+
+.site-logo-link {
+  position: fixed;
+  top: var(--space-md);
+  left: var(--space-md);
+  z-index: 1000;
+  display: block;
+  line-height: 0;
+  transition: transform var(--transition-fast);
+}
+
+.site-logo-link:hover {
+  transform: scale(1.05);
+}
+
+.site-logo-link:focus {
+  outline: 2px solid var(--link-color);
+  outline-offset: 4px;
+  border-radius: var(--radius-sm);
+}
+
+.site-logo {
+  display: block;
+  height: 44px;
+  width: auto;
+}
+
+/* Theme-based logo switching */
+[data-theme="light"] .site-logo-light {
+  display: block;
+}
+
+[data-theme="light"] .site-logo-dark {
+  display: none;
+}
+
+[data-theme="dark"] .site-logo-light {
+  display: none;
+}
+
+[data-theme="dark"] .site-logo-dark {
+  display: block;
+}
+
+/* ============================================
    Header Styles
    ============================================ */
 
@@ -318,6 +365,15 @@ main {
     right: var(--space-sm);
   }
 
+  .site-logo-link {
+    top: var(--space-sm);
+    left: var(--space-sm);
+  }
+
+  .site-logo {
+    height: 36px;
+  }
+
   /* Add padding to headers to prevent theme toggle overlap */
   .event-header,
   .page-header {
@@ -333,6 +389,10 @@ main {
   .theme-toggle-btn {
     padding: var(--space-xs) var(--space-sm);
     font-size: var(--text-lg);
+  }
+
+  .site-logo {
+    height: 32px;
   }
 }
 
