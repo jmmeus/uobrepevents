@@ -46,15 +46,15 @@ The site will automatically rebuild when you make changes to files.
 - `bundle exec jekyll serve --drafts` - Include draft posts
 - `bundle exec jekyll build` - Build site without serving
 
-## Adding a New Event
+## Documentation
 
-See [Event Guidelines](docs/event-guidelines.md) for complete documentation.
+📚 **[Event Guidelines](docs/event-guidelines.md)** - Complete guide to adding and managing events
 
-Quick overview:
-1. Create a folder in `events/` with a URL-friendly slug
-2. Add `event.yml` with event metadata
-3. Add `index.md` with layout reference
-4. Commit and push - GitHub Actions will auto-deploy
+Quick links:
+- [Adding a new event](docs/event-guidelines.md#quick-start)
+- [Event types](docs/event-guidelines.md#event-types)
+- [Creating custom templates](docs/event-guidelines.md#creating-custom-templates)
+- [Troubleshooting](docs/event-guidelines.md#troubleshooting)
 
 ## Project Structure
 
