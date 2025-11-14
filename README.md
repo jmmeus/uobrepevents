@@ -59,7 +59,7 @@ Quick links:
 ## Project Structure
 
 ```
-events/              # Event folders
+_events/             # Event folders (Jekyll collection)
 _layouts/            # Page templates
 _includes/           # Reusable components
 assets/              # CSS, JS, and media files
