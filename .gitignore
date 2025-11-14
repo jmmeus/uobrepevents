@@ -8,6 +8,7 @@ _site/
 *.gem
 .bundle
 vendor/
+bin/
 
 # OS
 .DS_Store

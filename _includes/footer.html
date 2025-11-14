@@ -1,0 +1,21 @@
+<footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-section">
+      <a href="{{ site.github.repository_url }}" class="source-link" target="_blank" rel="noopener">
+        View Source on GitHub
+      </a>
+    </div>
+
+    <div class="footer-section">
+      <p class="footer-contact">
+        Contact: <a href="mailto:{{ site.email | default: 'events@example.ac.uk' }}">{{ site.email | default: 'events@example.ac.uk' }}</a>
+      </p>
+    </div>
+
+    <div class="footer-section">
+      <p class="footer-copyright">
+        © {{ 'now' | date: "%Y" }} {{ site.title }}
+      </p>
+    </div>
+  </div>
+</footer>

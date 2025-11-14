@@ -1,0 +1,6 @@
+name: "Test Event"
+date: "2025-04-15"
+start_time: "14:30"
+end_time: "16:00"
+location: "Physics West 115"
+description: "This is a test description."
