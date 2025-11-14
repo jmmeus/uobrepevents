@@ -15,7 +15,9 @@ talks:
     group: "Astrophysics & Space Research"
     abstract: |
       The connection between dark matter properties and supermassive black hole (SMBH) mergers remains an open question with observational consequences for gravitational wave detectors like Pulsar Timing Arrays (PTAs). 
+      
       On the surface the link between PTA's and SMBH is not necessarily clear. PTA's are optimal for investigating the high mass regime of black holes at the centre of low redshift galaxies, while the choice of dark matter model is most important in the early stages of structure formation. The dark matter model chosen is important as CDM or more massive WDM particles form shallower potential wells (so the early Universe has an abundance of small DM halos), whereas less massive WDM particles form deeper potential wells (so the early Universe has fewer, more massive DM halos). We investigate how these early Universe changes present themselves at present times.
+      
       The research I will be presenting involves running the DM simulations with the semi-analytical galaxy formation code Galacticus, converting the halo masses to black hole masses and computing the merger rate and characteristic strain from all the SMBH mergers per model.
     # links:
     #   - text: "Slides"
@@ -28,7 +30,9 @@ talks:
     group: "Markovic's Group Condensed Matter"
     abstract: |
       Angle resolved photoemission spectroscopy (ARPES) is a technique used to directly analyse the band structure of materials. Analysing the band structures of materials provides interesting information about the physical properties of the material. 
+      
       My research project aims to investigate spin orbit interactions in lacunar spinels using ARPES to probe the electronic structure. Lacunar spinels are a relatively underexplored class of materials that exhibit a rich array of exciting physical phenomena such as spin-orbit correlated insulator phases, skyrmion lattices and insulator to metal transitions and superconductivity under pressure. Utilising ARPES to gain insight into the electronic structure, this research focuses on uncovering the interplay between spin orbit coupling, electronic interactions and structural features of lacunar spinels. 
+      
       Many exciting properties have been speculated for the lacunar spinel structures which can be investigated through the electronic structure and behaviour of the material. However, there is yet to be a thorough direct experimental investigation into the electronic band structure. Electronic band structures can support theoretical predictions and enhance the understanding of these characteristics.
     # links:
     #   - text: "Slides"
@@ -41,7 +45,9 @@ talks:
     group: "Nuclear Physics"
     abstract: |
       Accurately predicting activation properties of materials under neutron irradiation in planned nuclear fusion reactors is an essential step in advancing the technology's viability. However, for many reactions of interest, this requires specialist facilities, and it can be difficult to obtain the neutron fluxes needed for direct activation experiments. The Trojan Horse Method (THM) is an indirect route to measuring nuclear reaction cross-sections at low energies that are relevant to astrophysics, for which it was developed, and has been investigated for its application to neutron-capture reactions relevant to fusion.
+      
       This method utilises a clustered nucleus taking part in a three-body reaction, under kinematic conditions where one component of the cluster dominates the interaction, allowing its cross-section to be measured at energies below that of the whole cluster. In this work, the THM will be used to measure neutron-induced reaction cross-sections via a deuteron, a p⨁n cluster, taking advantage of the ease and high fluxes of a deuteron beam compared to alternative methods.
+      
       This method was explored both through Monte Carlo simulations and preliminary laboratory measurements, beginning with the well-understood 27Al(n,γ)28Al reaction and considering its expansion to reactions upon heavier nuclei, relevant to the fusion sector, including the planned measurement of the 93Nb(n,γ)94Nb cross-section via the 93Nb(d,pγ)94Nb reaction.
     # links:
     #   - text: "Slides"
@@ -81,7 +87,9 @@ talks:
     group: "Metamaterials and Nanophotonics"
     abstract: |
       The combination of electrospray deposition (ESD) and scanning tunnelling microscopy (STM) is an emerging technique for characterising conjugated polymers with sub-molecular resolution. By enabling sequencing of polymer backbones, this method provides a rare and powerful means to identify and quantify homocoupling defects, which are believed to affect polymer growth and device performance. 
+      
       This work focuses on pBTTT, a prototypical polythiophene with potential applications across organic electronics and photovoltaics. By overlaying geometry-optimised molecular models onto high-resolution STM images, we resolve the precise sequence of the dithiophene and thienothiophene subunits, thereby identifying the existence, frequency and location of homocoupling defects. Statistical analysis of a representative set of polymer chains enables testing of potential correlations of such defects, shedding light on the underlying polymerisation process—an insights inaccessible through conventional analytical techniques. 
+      
       At the supramolecular level, STM imaging of 2D surface assembly of pBTTT uncovers tie-chains bridging polymer islands which are assumed to facilitate macroscopic charge transport in thin films devices. In addition, the coexistence of two distinct assembly phases (a and b) is directly visualised, providing molecular-scale confirmation of polymorphism that had previously only been inferred from X-ray diffraction studies on bulk films.
     # links:
     #   - text: "Slides"
@@ -105,6 +113,7 @@ talks:
     group: "Quantum Sensing Group"
     abstract: |
       Atom interferometry is the matter-wave analogue to optical interferometry. Laser pulses drive transitions between the ground and excited states of atoms, acting as atom-optic beam splitters and mirrors. The atom wavefunction is driven along separate paths in a superposition, then superimposed to generate interference. The Atom Interferometry and Observatory Network (AION) programme aims to build a set of atom interferometers with progressively increasing baseline and sensitivity to investigate gravitational waves in the mid-frequency band and search for ultra-light dark matter.
+      
       Sensitivities beyond the capabilities of existing quantum sensors will be required. One method for increasing the sensitivity of atom interferometers is large momentum transfer, in which a sequence of laser pulses is applied during the interferometry sequence after the first atom-optic beam splitter. Each pulse increases the momentum separation of the atomic wavepacket, increasing the space-time area enclosed by the two paths, which is linearly proportional to the interferometer sensitivity. I will outline the AION programme, large momentum transfer atom interferometry and the system we are building at the University of Birmingham to investigate techniques to further enhance large momentum transfer.
     # links:
     #   - text: "Slides"
@@ -115,7 +124,8 @@ talks:
     speaker: "Thomas Thory-Rao"
     title: "ATLAS ITk Upgrade"
     group: "Particle Physics"
-    abstract: "Proton irradiation of silicon strip sensors for quality assurance with birmingham mc40 cyclotron"
+    abstract: |
+      Proton irradiation of silicon strip sensors for quality assurance with birmingham mc40 cyclotron
     # links:
     #   - text: "Slides"
     #     file: "assets/events/mini-talks-2025/thomas-thory-rao-slides.pdf"
