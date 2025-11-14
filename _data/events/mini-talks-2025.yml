@@ -1,157 +1,127 @@
 type: rota
-name: "Mini-Talks Event - November 2025"
+name: "Birmingham PhD Mini-Talks - November 2025"
 slug: "mini-talks-2025"
 date: "2025-11-26"
 start_time: "14:00"
 end_time: "16:00"
 location: "Physics West 115"
-description: >
-  A Mini-Talks afternoon for PhD students to practise presenting, share research
-  across the cohort, and catch up with fellow PGR students in an informal setting.
+description: "An opportunity for PhD students to practice presenting, to share knowledge with the greater cohort, and catch up with fellow PGR students."
 
 talks:
   - start: "14:00"
     end: "14:10"
     speaker: "Luke Williams"
     title: "Impact of dark matter on supermassive black hole merger rates"
-    group: "ASR? Extragalactic?"
-    abstract: >
-      The connection between dark matter properties and...and characteristic strain
-      from all the SMBH mergers per model.
-    links:
-      # - text: "Slides"
-      #   file: ""
-      # - text: "Related Paper"
-      #   url: ""
+    group: "Astrophysics & Space Research"
+    abstract: |
+      The connection between dark matter properties and supermassive black hole (SMBH) mergers remains an open question with observational consequences for gravitational wave detectors like Pulsar Timing Arrays (PTAs). 
+      On the surface the link between PTA's and SMBH is not necessarily clear. PTA's are optimal for investigating the high mass regime of black holes at the centre of low redshift galaxies, while the choice of dark matter model is most important in the early stages of structure formation. The dark matter model chosen is important as CDM or more massive WDM particles form shallower potential wells (so the early Universe has an abundance of small DM halos), whereas less massive WDM particles form deeper potential wells (so the early Universe has fewer, more massive DM halos). We investigate how these early Universe changes present themselves at present times.
+      The research I will be presenting involves running the DM simulations with the semi-analytical galaxy formation code Galacticus, converting the halo masses to black hole masses and computing the merger rate and characteristic strain from all the SMBH mergers per model.
+    # links:
+    #   - text: "Slides"
+    #     file: "assets/events/mini-talks-2025/luke-williams-slides.pdf"
 
   - start: "14:10"
     end: "14:20"
-    speaker: "Claire Rosemary Munro"
+    speaker: "Claire Munro"
     title: "Spin Resolved ARPES"
     group: "Markovic's Group Condensed Matter"
-    abstract: >
-      Angle resolved photoemission spectroscopy (ARPES) is a powerful spectroscopic
-      technique for investigating the electronic structure of crystalline materials. 
-      This talk discusses the principles of ARPES and the added capability of spin
-      resolution.
-    links:
-      # - text: "Slides"
-      #   file: ""
-      # - text: "Related Paper"
-      #   url: ""
+    abstract: |
+      Angle resolved photoemission spectroscopy (ARPES) is a technique used to directly analyse the band structure of materials. Analysing the band structures of materials provides interesting information about the physical properties of the material. 
+      My research project aims to investigate spin orbit interactions in lacunar spinels using ARPES to probe the electronic structure. Lacunar spinels are a relatively underexplored class of materials that exhibit a rich array of exciting physical phenomena such as spin-orbit correlated insulator phases, skyrmion lattices and insulator to metal transitions and superconductivity under pressure. Utilising ARPES to gain insight into the electronic structure, this research focuses on uncovering the interplay between spin orbit coupling, electronic interactions and structural features of lacunar spinels. 
+      Many exciting properties have been speculated for the lacunar spinel structures which can be investigated through the electronic structure and behaviour of the material. However, there is yet to be a thorough direct experimental investigation into the electronic band structure. Electronic band structures can support theoretical predictions and enhance the understanding of these characteristics.
+    # links:
+    #   - text: "Slides"
+    #     file: "assets/events/mini-talks-2025/claire-munro-slides.pdf"
 
   - start: "14:20"
     end: "14:30"
     speaker: "Patrick Galvin"
-    title: "Large momentum transfer atom interferometry for ultra-precise quantum sensors"
-    group: "Quantum Sensing / Atom Interferometry"
-    abstract: >
-      Atom interferometry is the matter-wave analogue to optical interferometry.
-      Large momentum transfer beam splitters greatly enhance sensitivity; this talk
-      investigates techniques to further enhance large momentum transfer.
-    links:
-      # - text: "Slides"
-      #   file: ""
-      # - text: "Related Paper"
-      #   url: ""
+    title: "Exploring the Application of the Trojan Horse Method to Neutron Capture Reactions for Fusion"
+    group: "Nuclear Physics"
+    abstract: |
+      Accurately predicting activation properties of materials under neutron irradiation in planned nuclear fusion reactors is an essential step in advancing the technology's viability. However, for many reactions of interest, this requires specialist facilities, and it can be difficult to obtain the neutron fluxes needed for direct activation experiments. The Trojan Horse Method (THM) is an indirect route to measuring nuclear reaction cross-sections at low energies that are relevant to astrophysics, for which it was developed, and has been investigated for its application to neutron-capture reactions relevant to fusion.
+      This method utilises a clustered nucleus taking part in a three-body reaction, under kinematic conditions where one component of the cluster dominates the interaction, allowing its cross-section to be measured at energies below that of the whole cluster. In this work, the THM will be used to measure neutron-induced reaction cross-sections via a deuteron, a p⨁n cluster, taking advantage of the ease and high fluxes of a deuteron beam compared to alternative methods.
+      This method was explored both through Monte Carlo simulations and preliminary laboratory measurements, beginning with the well-understood 27Al(n,γ)28Al reaction and considering its expansion to reactions upon heavier nuclei, relevant to the fusion sector, including the planned measurement of the 93Nb(n,γ)94Nb cross-section via the 93Nb(d,pγ)94Nb reaction.
+    # links:
+    #   - text: "Slides"
+    #     file: "assets/events/mini-talks-2025/patrick-galvin-slides.pdf"
 
   - start: "14:30"
     end: "14:40"
     speaker: "Dylan Gower"
-    title: "awaiting title"
-    group: "awaiting group"
-    abstract: "awaiting abstract"
-    links:
-      # - text: "Slides"
-      #   file: ""
-      # - text: "Related Paper"
-      #   url: ""
+    title: "Title to be confirmed"
+    group: "Theoretical Physics"
+    abstract: |
+      Abstract to be confirmed.
+    # links:
+    #   - text: "Slides"
+    #     file: "assets/events/mini-talks-2025/dylan-gower-slides.pdf"
 
   - start: "14:40"
     end: "14:50"
     speaker: "Aleyna Adamson"
-    title: "Over 6000 exoplanets have been discovered outside our Solar System"
-    group: "SSE"
-    abstract: >
-      Over 6000 exoplanets have been discovered outside our Solar System. This talk
-      discusses recent discoveries and methods, highlighting the challenges in
-      characterising small temperate planets.
-    links:
-      # - text: "Slides"
-      #   file: ""
-      # - text: "Related Paper"
-      #   url: ""
+    title: "Detecting circumbinary planets with the BEBOP radial velocity survey"
+    group: "Sun, Stars, and Exoplanets"
+    abstract: |
+      Over 6000 exoplanets have been discovered outside of our solar system some of which orbit not just one star but two (also known as binaries). These unique planets are known as circumbinary planets and have proven difficult to detect via all exoplanet detection methods. Despite the radial velocity method being one of the most effective ways of detecting planets around single stars, only seven circumbinary planets have been detected this way. The BEBOP (Binaries Escorted By Orbiting Planets) radial velocity survey aims to detect more circumbinary planets with radial velocities extending the search into double-lined binaries where radial velocity detections are particularly challenging. In this talk I will give a brief introduction to circumbinary planets and an overview of the results of the BEBOP radial velocity survey so far.
+    # links:
+    #   - text: "Slides"
+    #     file: "assets/events/mini-talks-2025/aleyna-adamson-slides.pdf"
 
   - type: break
     start: "14:50"
     end: "15:05"
-    label: "Break"
+    label: "Coffee and networking break"
 
   - start: "15:05"
     end: "15:15"
     speaker: "Kabeer Abdulhusein"
-    title: "Novel method using magnetic tweezers for the detection of proteins"
-    group: "Quantum Biology / Biophysics"
-    abstract: >
-      Magnetic tweezers are a versatile tool used for the investigation of nucleic
-      acids and protein interactions. This talk discusses their application toward
-      sensitive protein detection.
-    links:
-      # - text: "Slides"
-      #   file: ""
-      # - text: "Related Paper"
-      #   url: ""
+    title: "Developing Structural Analysis of Conjugated Polymers​"
+    group: "Metamaterials and Nanophotonics"
+    abstract: |
+      The combination of electrospray deposition (ESD) and scanning tunnelling microscopy (STM) is an emerging technique for characterising conjugated polymers with sub-molecular resolution. By enabling sequencing of polymer backbones, this method provides a rare and powerful means to identify and quantify homocoupling defects, which are believed to affect polymer growth and device performance. 
+      This work focuses on pBTTT, a prototypical polythiophene with potential applications across organic electronics and photovoltaics. By overlaying geometry-optimised molecular models onto high-resolution STM images, we resolve the precise sequence of the dithiophene and thienothiophene subunits, thereby identifying the existence, frequency and location of homocoupling defects. Statistical analysis of a representative set of polymer chains enables testing of potential correlations of such defects, shedding light on the underlying polymerisation process—an insights inaccessible through conventional analytical techniques. 
+      At the supramolecular level, STM imaging of 2D surface assembly of pBTTT uncovers tie-chains bridging polymer islands which are assumed to facilitate macroscopic charge transport in thin films devices. In addition, the coexistence of two distinct assembly phases (a and b) is directly visualised, providing molecular-scale confirmation of polymorphism that had previously only been inferred from X-ray diffraction studies on bulk films.
+    # links:
+    #   - text: "Slides"
+    #     file: "assets/events/mini-talks-2025/kabeer-abdulhusein-slides.pdf"
 
   - start: "15:15"
     end: "15:25"
     speaker: "Eddie Bannister"
-    title: "Hunting asymmetric dark matter via gravitational waves"
-    group: "Gravitational Waves / Theory"
-    abstract: >
-      If dark matter is asymmetric, primordial black holes may form with unique
-      mass distributions. This talk covers how gravitational wave signatures can be
-      used to probe asymmetric dark matter scenarios.
-    links:
-      # - text: "Slides"
-      #   file: ""
-      # - text: "Related Paper"
-      #   url: ""
+    title: "The Formation of Ultracold Rubidium Strontium Molecules"
+    group: "Cold Atoms"
+    abstract: |
+      The formation of dipolar, diatomic molecules at ultracold temperatures offers insight into the mechanisms of chemical reactions at the quantum scale as well as providing an effective testbed for quantum simulation. Rubidium Strontium molecules are to be formed from laser cooled separately cooled samples of Rb and Sr at ultracold temperatures, through the use of magnetically tuneable Feshbach resonances. These weakly bound Feshbach molecules will then be pumped into their vibrational ground state using stimulated Raman adiabatic passage to create stable alkali - alkaline earth diatomics. After this process, the products are to be characterised using a time of flight mass spectrometer in order to measure the effectiveness of the molecules forming process. At low temperatures, diatomic molecules not only exhibit quantised electronic energy levels but also interatomic vibrational and rotational energy levels. These additional degrees of freedom, combined with the strong molecular dipoles could facilitate the generation of a long range shielding force, allowing the molecules to be evaporatively cooled to a molecular Bose-Einstein condensate.
+    # links:
+    #   - text: "Slides"
+    #     file: "assets/events/mini-talks-2025/eddie-bannister-slides.pdf"
 
   - start: "15:25"
     end: "15:35"
     speaker: "Aidan Brzakalik"
-    title: "Differentiable simulations of galaxy evolution"
-    group: "Astrophysics"
-    abstract: >
-      Differentiable simulations enable gradient-based optimisation in modelling
-      galaxy evolution. This talk outlines early work on scalable differentiable
-      frameworks and their potential applications.
-    links:
-      # - text: "Slides"
-      #   file: ""
-      # - text: "Related Paper"
-      #   url: ""
+    title: "Large momentum transfer atom interferometry for ultra-precise quantum sensors"
+    group: "Quantum Sensing Group"
+    abstract: |
+      Atom interferometry is the matter-wave analogue to optical interferometry. Laser pulses drive transitions between the ground and excited states of atoms, acting as atom-optic beam splitters and mirrors. The atom wavefunction is driven along separate paths in a superposition, then superimposed to generate interference. The Atom Interferometry and Observatory Network (AION) programme aims to build a set of atom interferometers with progressively increasing baseline and sensitivity to investigate gravitational waves in the mid-frequency band and search for ultra-light dark matter.
+      Sensitivities beyond the capabilities of existing quantum sensors will be required. One method for increasing the sensitivity of atom interferometers is large momentum transfer, in which a sequence of laser pulses is applied during the interferometry sequence after the first atom-optic beam splitter. Each pulse increases the momentum separation of the atomic wavepacket, increasing the space-time area enclosed by the two paths, which is linearly proportional to the interferometer sensitivity. I will outline the AION programme, large momentum transfer atom interferometry and the system we are building at the University of Birmingham to investigate techniques to further enhance large momentum transfer.
+    # links:
+    #   - text: "Slides"
+    #     file: "assets/events/mini-talks-2025/aidan-brzakalik-slides.pdf"
 
   - start: "15:35"
     end: "15:45"
     speaker: "Thomas Thory-Rao"
     title: "ATLAS ITk Upgrade"
     group: "Particle Physics"
-    abstract: >
-      Proton irradiation of silicon strip sensors for quality assurance within the
-      Birmingham MC40 cyclotron facility, supporting development for the ATLAS ITk
-      upgrade.
-    links:
-      # - text: "Slides"
-      #   file: ""
-      # - text: "Related Paper"
-      #   url: ""
+    abstract: "Proton irradiation of silicon strip sensors for quality assurance with birmingham mc40 cyclotron"
+    # links:
+    #   - text: "Slides"
+    #     file: "assets/events/mini-talks-2025/thomas-thory-rao-slides.pdf"
 
   - start: "15:45"
     end: "16:00"
     speaker: "Panel Discussion"
     title: "Q&A and Closing Remarks"
     group: "All speakers"
-    links:
-      # - text: "Notes"
-      #   file: ""
