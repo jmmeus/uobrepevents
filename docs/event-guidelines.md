@@ -434,6 +434,7 @@ Create `_layouts/my-custom-layout.html`:
   <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
 </head>
 <body>
+  {% include site-logo.html %}
   {% include theme-toggle.html %}
 
   <main>
@@ -523,9 +524,10 @@ All event data is available in the `event` variable:
 Include any shared component:
 
 ```liquid
+{% include site-logo.html %}  <!-- Site logo, links to home -->
+{% include theme-toggle.html %}
 {% include header.html event=event %}
 {% include footer.html %}
-{% include theme-toggle.html %}
 ```
 
 ### Best Practices for Custom Templates
@@ -535,7 +537,7 @@ Include any shared component:
 3. **Use shared header/footer** for navigation consistency
 4. **Make it responsive** (test on mobile)
 5. **Document custom fields** in comments or separate doc
-6. **Mobile header spacing** - If creating custom headers, add `padding-top: 60px` on mobile (`max-width: 768px`) to prevent overlap with the fixed theme toggle. The shared header component (`{% include header.html event=event %}`) already includes this spacing.
+6. **Mobile header spacing** - If creating custom headers, add `padding-top: 60px` on mobile (`max-width: 768px`) to prevent overlap with the logo and theme toggle. The shared header component (`{% include header.html event=event %}`) already includes this spacing.
 
 ---
 
