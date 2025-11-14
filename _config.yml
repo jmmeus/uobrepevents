@@ -22,6 +22,13 @@ plugins:
 # Timezone (adjust as needed)
 timezone: Europe/London
 
+# Site contact
+email: "events@example.ac.uk"
+
+# GitHub repository (auto-populated by GitHub Pages, but can override)
+github:
+  repository_url: "https://github.com/username/repo"
+
 # Exclude from processing
 exclude:
   - Gemfile

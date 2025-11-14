@@ -1,0 +1,24 @@
+<header class="event-header">
+  <h1 class="event-title">{{ include.event.name }}</h1>
+
+  <div class="event-meta">
+    <div class="event-meta-item">
+      <span class="meta-label">Date:</span>
+      <span class="meta-value">{{ include.event.date | date: "%-d %B %Y" }}</span>
+    </div>
+
+    <div class="event-meta-item">
+      <span class="meta-label">Time:</span>
+      <span class="meta-value">{{ include.event.start_time }} - {{ include.event.end_time }}</span>
+    </div>
+
+    <div class="event-meta-item">
+      <span class="meta-label">Location:</span>
+      <span class="meta-value">{{ include.event.location }}</span>
+    </div>
+  </div>
+
+  {% if include.event.description %}
+  <p class="event-description">{{ include.event.description }}</p>
+  {% endif %}
+</header>
