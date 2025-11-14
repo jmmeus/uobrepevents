@@ -64,14 +64,17 @@ Each event follows this folder structure:
 _events/
   event-slug/
     index.md          ← Layout reference (required)
-    assets/           ← Event-specific files (optional)
-      slides.pdf
-      poster.pdf
-      image.jpg
 
 _data/
   events/
     event-slug.yml    ← Event data (required)
+
+assets/
+  events/
+    event-slug/       ← Event-specific files (optional)
+      slides.pdf
+      poster.pdf
+      image.jpg
 ```
 
 ### Why Two Locations?
@@ -131,7 +134,7 @@ talks:
     abstract: "Talk abstract text"  # optional
     links:  # optional
       - text: "Slides"
-        file: "assets/slides.pdf"
+        file: "assets/events/event-slug/slides.pdf"
       - text: "Paper"
         url: "https://arxiv.org/..."
 
@@ -169,7 +172,7 @@ Links can point to local files or external URLs:
 ```yaml
 links:
   - text: "Slides"
-    file: "assets/slides.pdf"  # local file
+    file: "assets/events/event-slug/slides.pdf"  # local file
   - text: "Paper"
     url: "https://example.com"  # external URL
   - text: "GitHub"
@@ -187,7 +190,7 @@ links:
 **Additional fields**:
 ```yaml
 type: poster
-poster_file: "assets/poster.pdf"  # required
+poster_file: "assets/events/event-slug/poster.pdf"  # required
 authors:  # optional
   - "Author One"
   - "Author Two"
@@ -216,7 +219,7 @@ start_time: "10:00"
 end_time: "12:00"
 location: "Main Hall"
 description: "Poster presentation on lithium-ion alternatives"
-poster_file: "assets/battery-poster.pdf"
+poster_file: "assets/events/battery-poster-2025/battery-poster.pdf"
 authors:
   - "Dr. Sarah Chen"
   - "Prof. Michael Rodriguez"
@@ -315,32 +318,35 @@ custom_nested:
 
 ### Asset Location
 
-Place event-specific files in the event's `assets/` folder:
+Place event-specific files in the global `assets/events/` folder:
 
 ```
-_events/
-  my-event/
-    index.md
-    assets/
+assets/
+  events/
+    my-event/
       slides.pdf
       poster.pdf
       image.jpg
       data.csv
+
+_events/
+  my-event/
+    index.md
 ```
 
 ### Referencing Assets
 
-In YAML, use relative paths:
+In YAML, use paths relative to the site root:
 
 ```yaml
 links:
   - text: "Slides"
-    file: "assets/slides.pdf"
+    file: "assets/events/my-event/slides.pdf"
 
-poster_file: "assets/poster.pdf"
+poster_file: "assets/events/my-event/poster.pdf"
 ```
 
-Jekyll will automatically resolve these relative to the event folder.
+These paths are relative to the site root and will be properly resolved by Jekyll.
 
 ### Supported File Types
 
@@ -356,11 +362,13 @@ Jekyll will automatically resolve these relative to the event folder.
 3. **Organization**: Group related files in subfolders if needed:
    ```
    assets/
-     slides/
-       talk1.pdf
-       talk2.pdf
-     posters/
-       poster1.pdf
+     events/
+       my-event/
+         slides/
+           talk1.pdf
+           talk2.pdf
+         posters/
+           poster1.pdf
    ```
 
 ---
@@ -642,8 +650,8 @@ github:
 ### PDF Links Not Working
 
 **Check**:
-1. ✅ PDF file exists in `_events/[slug]/assets/`
-2. ✅ Path in YAML: `file: "assets/filename.pdf"`
+1. ✅ PDF file exists in `assets/events/[slug]/`
+2. ✅ Path in YAML: `file: "assets/events/[slug]/filename.pdf"`
 3. ✅ Filename matches exactly (case-sensitive)
 4. ✅ File committed to repository
 5. ✅ Using `file:` for local files, `url:` for external
@@ -731,7 +739,7 @@ talks:
       directions for understanding fundamental particles.
     links:
       - text: "Slides"
-        file: "assets/wilson-keynote.pdf"
+        file: "assets/events/conference-2025/wilson-keynote.pdf"
       - text: "CERN Website"
         url: "https://cern.ch"
 
@@ -763,7 +771,7 @@ start_time: "13:00"
 end_time: "15:00"
 location: "Great Hall"
 description: "Annual poster session showcasing graduate student research"
-poster_file: "assets/research-poster.pdf"
+poster_file: "assets/events/poster-session-spring/research-poster.pdf"
 authors:
   - "Emma Johnson (PhD Candidate)"
   - "Dr. Sarah Martinez (Supervisor)"
@@ -879,7 +887,7 @@ bundle exec jekyll serve --drafts
 
 - [ ] `_data/events/[slug].yml` - Event data
 - [ ] `_events/[slug]/index.md` - Page definition
-- [ ] `_events/[slug]/assets/` - Asset files (if needed)
+- [ ] `assets/events/[slug]/` - Asset files (if needed)
 - [ ] All required YAML fields present
 - [ ] Slug follows naming conventions
 - [ ] Tested locally before commit

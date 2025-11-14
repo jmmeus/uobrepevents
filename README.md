@@ -22,8 +22,8 @@ A modular GitHub Pages system for hosting research event schedules, posters, and
 
 1. Clone the repository:
    ```bash
-   git clone <repo-url>
-   cd <repo-name>
+   git clone https://github.com/jmmeus/uobrepevents.git
+   cd uobrepevents
    ```
 
 2. Install dependencies:
@@ -75,4 +75,4 @@ docs/                # Documentation
 
 ## License
 
-[Specify your license]
+MIT License - see [LICENSE](LICENSE) file for details
