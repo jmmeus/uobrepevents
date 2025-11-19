@@ -4,7 +4,7 @@ slug: "mini-talks-2025"
 date: "2025-11-26"
 start_time: "14:00"
 end_time: "16:00"
-location: "Physics West 115"
+location: "Physics West 117"
 description: "An opportunity for PhD students to practice presenting, to share knowledge with the greater cohort, and catch up with fellow PGR students."
 
 talks:
@@ -91,9 +91,11 @@ talks:
       This work focuses on pBTTT, a prototypical polythiophene with potential applications across organic electronics and photovoltaics. By overlaying geometry-optimised molecular models onto high-resolution STM images, we resolve the precise sequence of the dithiophene and thienothiophene subunits, thereby identifying the existence, frequency and location of homocoupling defects. Statistical analysis of a representative set of polymer chains enables testing of potential correlations of such defects, shedding light on the underlying polymerisation process—an insights inaccessible through conventional analytical techniques. 
       
       At the supramolecular level, STM imaging of 2D surface assembly of pBTTT uncovers tie-chains bridging polymer islands which are assumed to facilitate macroscopic charge transport in thin films devices. In addition, the coexistence of two distinct assembly phases (a and b) is directly visualised, providing molecular-scale confirmation of polymorphism that had previously only been inferred from X-ray diffraction studies on bulk films.
-    # links:
-    #   - text: "Slides"
-    #     file: "assets/events/mini-talks-2025/kabeer-abdulhusein-slides.pdf"
+    links:
+      - text: "PDF"
+        file: "assets/events/mini-talks-2025/kabeers_mini_talk.pdf"
+      - text: "PowerPoint"
+        url: "https://bham-my.sharepoint.com/personal/jmm974_student_bham_ac_uk/_layouts/15/guestaccess.aspx?share=EVQ-BpBnNXRFjQUFoqQ_BAkBabEzWIKT7x-Hr9xgAYXA-Q&e=mYVzjv"
 
   - start: "15:15"
     end: "15:25"
