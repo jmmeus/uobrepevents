@@ -19,9 +19,11 @@ talks:
       On the surface the link between PTA's and SMBH is not necessarily clear. PTA's are optimal for investigating the high mass regime of black holes at the centre of low redshift galaxies, while the choice of dark matter model is most important in the early stages of structure formation. The dark matter model chosen is important as CDM or more massive WDM particles form shallower potential wells (so the early Universe has an abundance of small DM halos), whereas less massive WDM particles form deeper potential wells (so the early Universe has fewer, more massive DM halos). We investigate how these early Universe changes present themselves at present times.
       
       The research I will be presenting involves running the DM simulations with the semi-analytical galaxy formation code Galacticus, converting the halo masses to black hole masses and computing the merger rate and characteristic strain from all the SMBH mergers per model.
-    # links:
-    #   - text: "Slides"
-    #     file: "assets/events/mini-talks-2025/luke-williams-slides.pdf"
+    links:
+      - text: "PDF"
+        file: "assets/events/mini-talks-2025/Luke_ImpactofDM4PGRMiniTalks.pdf"
+      - text: "PowerPoint"
+        url: "https://bham-my.sharepoint.com/personal/jmm974_student_bham_ac_uk/_layouts/15/guestaccess.aspx?share=EXO2fIsGNRpOhBOkbqJxLSIBga50nX_842TvHf4CWnRrLg&e=Tfcc23"
 
   - start: "14:10"
     end: "14:20"
@@ -34,9 +36,11 @@ talks:
       My research project aims to investigate spin orbit interactions in lacunar spinels using ARPES to probe the electronic structure. Lacunar spinels are a relatively underexplored class of materials that exhibit a rich array of exciting physical phenomena such as spin-orbit correlated insulator phases, skyrmion lattices and insulator to metal transitions and superconductivity under pressure. Utilising ARPES to gain insight into the electronic structure, this research focuses on uncovering the interplay between spin orbit coupling, electronic interactions and structural features of lacunar spinels. 
       
       Many exciting properties have been speculated for the lacunar spinel structures which can be investigated through the electronic structure and behaviour of the material. However, there is yet to be a thorough direct experimental investigation into the electronic band structure. Electronic band structures can support theoretical predictions and enhance the understanding of these characteristics.
-    # links:
-    #   - text: "Slides"
-    #     file: "assets/events/mini-talks-2025/claire-munro-slides.pdf"
+    links:
+      - text: "PDF"
+        file: "assets/events/mini-talks-2025/Claire_Angle_Resolved_Photoemission_Spectroscopy.pdf"
+      - text: "PowerPoint"
+        url: "https://bham-my.sharepoint.com/personal/jmm974_student_bham_ac_uk/_layouts/15/guestaccess.aspx?share=Ea-H3Ira2ORIokVDptzMsMABKns4rX2EpWZgtcj6YjJEUw&e=Waw0Jh"
 
   - start: "14:20"
     end: "14:30"
