@@ -64,9 +64,11 @@ talks:
     group: "Theoretical Physics"
     abstract: |
       Abstract to be confirmed.
-    # links:
-    #   - text: "Slides"
-    #     file: "assets/events/mini-talks-2025/dylan-gower-slides.pdf"
+    links:
+      - text: "PDF"
+        file: "assets/events/mini-talks-2025/PGR_Mini_Talks_Presentation_Dylan.pdf"
+      - text: "PowerPoint"
+        url: "https://bham-my.sharepoint.com/personal/jmm974_student_bham_ac_uk/_layouts/15/guestaccess.aspx?share=ETOhh44w89NPgLkwIg_bBp4BGl1Ay5zCZiHqSrOWIb7JNQ&e=4eDqnG"
 
   - start: "14:40"
     end: "14:50"
@@ -75,9 +77,11 @@ talks:
     group: "Sun, Stars, and Exoplanets"
     abstract: |
       Over 6000 exoplanets have been discovered outside of our solar system some of which orbit not just one star but two (also known as binaries). These unique planets are known as circumbinary planets and have proven difficult to detect via all exoplanet detection methods. Despite the radial velocity method being one of the most effective ways of detecting planets around single stars, only seven circumbinary planets have been detected this way. The BEBOP (Binaries Escorted By Orbiting Planets) radial velocity survey aims to detect more circumbinary planets with radial velocities extending the search into double-lined binaries where radial velocity detections are particularly challenging. In this talk I will give a brief introduction to circumbinary planets and an overview of the results of the BEBOP radial velocity survey so far.
-    # links:
-    #   - text: "Slides"
-    #     file: "assets/events/mini-talks-2025/aleyna-adamson-slides.pdf"
+    links:
+      - text: "PDF"
+        file: "assets/events/mini-talks-2025/PGR_reps_mini_talk_Aleyna.pdf"
+      - text: "PowerPoint"
+        url: "https://bham-my.sharepoint.com/personal/jmm974_student_bham_ac_uk/_layouts/15/guestaccess.aspx?share=ET_RpR2UVy9BnC56UP-lGuEBglhGuwKSuUG-rWehHBRshQ&e=Eabuz8"
 
   - type: break
     start: "14:50"
@@ -108,9 +112,11 @@ talks:
     group: "Cold Atoms"
     abstract: |
       The formation of dipolar, diatomic molecules at ultracold temperatures offers insight into the mechanisms of chemical reactions at the quantum scale as well as providing an effective testbed for quantum simulation. Rubidium Strontium molecules are to be formed from laser cooled separately cooled samples of Rb and Sr at ultracold temperatures, through the use of magnetically tuneable Feshbach resonances. These weakly bound Feshbach molecules will then be pumped into their vibrational ground state using stimulated Raman adiabatic passage to create stable alkali - alkaline earth diatomics. After this process, the products are to be characterised using a time of flight mass spectrometer in order to measure the effectiveness of the molecules forming process. At low temperatures, diatomic molecules not only exhibit quantised electronic energy levels but also interatomic vibrational and rotational energy levels. These additional degrees of freedom, combined with the strong molecular dipoles could facilitate the generation of a long range shielding force, allowing the molecules to be evaporatively cooled to a molecular Bose-Einstein condensate.
-    # links:
-    #   - text: "Slides"
-    #     file: "assets/events/mini-talks-2025/eddie-bannister-slides.pdf"
+    links:
+      - text: "PDF"
+        file: "assets/events/mini-talks-2025/Mini_talk_RbSr_Eddie.pdf"
+      - text: "PowerPoint"
+        url: "https://bham-my.sharepoint.com/personal/jmm974_student_bham_ac_uk/_layouts/15/guestaccess.aspx?share=ER0icTgcapxFnNzdT4EYn80BDP-tp-VUBKahfmNs55ezbw&e=ar1o0g"
 
   - start: "15:25"
     end: "15:35"
@@ -121,9 +127,11 @@ talks:
       Atom interferometry is the matter-wave analogue to optical interferometry. Laser pulses drive transitions between the ground and excited states of atoms, acting as atom-optic beam splitters and mirrors. The atom wavefunction is driven along separate paths in a superposition, then superimposed to generate interference. The Atom Interferometry and Observatory Network (AION) programme aims to build a set of atom interferometers with progressively increasing baseline and sensitivity to investigate gravitational waves in the mid-frequency band and search for ultra-light dark matter.
       
       Sensitivities beyond the capabilities of existing quantum sensors will be required. One method for increasing the sensitivity of atom interferometers is large momentum transfer, in which a sequence of laser pulses is applied during the interferometry sequence after the first atom-optic beam splitter. Each pulse increases the momentum separation of the atomic wavepacket, increasing the space-time area enclosed by the two paths, which is linearly proportional to the interferometer sensitivity. I will outline the AION programme, large momentum transfer atom interferometry and the system we are building at the University of Birmingham to investigate techniques to further enhance large momentum transfer.
-    # links:
-    #   - text: "Slides"
-    #     file: "assets/events/mini-talks-2025/aidan-brzakalik-slides.pdf"
+    links:
+      - text: "PDF"
+        file: "assets/events/mini-talks-2025/lmt_minitalk_aidan.pdf"
+      - text: "PowerPoint"
+        url: "https://bham-my.sharepoint.com/personal/jmm974_student_bham_ac_uk/_layouts/15/guestaccess.aspx?share=EQJ-Leg0A_NOoK8PV-lsBJUBSOB57JkINAoH4YABnpBtFw&e=6Px6jO"
 
   - start: "15:35"
     end: "15:45"
@@ -132,9 +140,9 @@ talks:
     group: "Particle Physics"
     abstract: |
       Proton irradiation of silicon strip sensors for quality assurance with birmingham mc40 cyclotron
-    # links:
-    #   - text: "Slides"
-    #     file: "assets/events/mini-talks-2025/thomas-thory-rao-slides.pdf"
+    links:
+      - text: "PDF"
+        file: "assets/events/mini-talks-2025/flash_talk_Thomas.pdf"
 
   - start: "15:45"
     end: "16:00"
