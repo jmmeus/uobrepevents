@@ -44,21 +44,6 @@ talks:
 
   - start: "14:20"
     end: "14:30"
-    speaker: "Patrick Galvin"
-    title: "Exploring the Application of the Trojan Horse Method to Neutron Capture Reactions for Fusion"
-    group: "Nuclear Physics"
-    abstract: |
-      Accurately predicting activation properties of materials under neutron irradiation in planned nuclear fusion reactors is an essential step in advancing the technology's viability. However, for many reactions of interest, this requires specialist facilities, and it can be difficult to obtain the neutron fluxes needed for direct activation experiments. The Trojan Horse Method (THM) is an indirect route to measuring nuclear reaction cross-sections at low energies that are relevant to astrophysics, for which it was developed, and has been investigated for its application to neutron-capture reactions relevant to fusion.
-      
-      This method utilises a clustered nucleus taking part in a three-body reaction, under kinematic conditions where one component of the cluster dominates the interaction, allowing its cross-section to be measured at energies below that of the whole cluster. In this work, the THM will be used to measure neutron-induced reaction cross-sections via a deuteron, a p⨁n cluster, taking advantage of the ease and high fluxes of a deuteron beam compared to alternative methods.
-      
-      This method was explored both through Monte Carlo simulations and preliminary laboratory measurements, beginning with the well-understood 27Al(n,γ)28Al reaction and considering its expansion to reactions upon heavier nuclei, relevant to the fusion sector, including the planned measurement of the 93Nb(n,γ)94Nb cross-section via the 93Nb(d,pγ)94Nb reaction.
-    # links:
-    #   - text: "Slides"
-    #     file: "assets/events/mini-talks-2025/patrick-galvin-slides.pdf"
-
-  - start: "14:30"
-    end: "14:40"
     speaker: "Dylan Gower"
     title: "Topological Responses in 2D Quasicrystals"
     group: "Theoretical Physics"
@@ -70,8 +55,8 @@ talks:
       - text: "PowerPoint"
         url: "https://bham-my.sharepoint.com/personal/jmm974_student_bham_ac_uk/_layouts/15/guestaccess.aspx?share=ETOhh44w89NPgLkwIg_bBp4BGl1Ay5zCZiHqSrOWIb7JNQ&e=4eDqnG"
 
-  - start: "14:40"
-    end: "14:50"
+  - start: "14:30"
+    end: "14:40"
     speaker: "Aleyna Adamson"
     title: "Detecting circumbinary planets with the BEBOP radial velocity survey"
     group: "Sun, Stars, and Exoplanets"
@@ -83,12 +68,7 @@ talks:
       - text: "PowerPoint"
         url: "https://bham-my.sharepoint.com/personal/jmm974_student_bham_ac_uk/_layouts/15/guestaccess.aspx?share=EVltAK0-7tZMv4tFoh9I6q0BzsYldf-1x-W4d6ZLbkC-tA&e=OnDarC"
 
-  - type: break
-    start: "14:50"
-    end: "15:05"
-    label: "Coffee and networking break"
-
-  - start: "15:05"
+  - start: "1"
     end: "15:15"
     speaker: "Kabeer Abdulhusein"
     title: "Developing Structural Analysis of Conjugated Polymers​"
@@ -105,8 +85,13 @@ talks:
       - text: "PowerPoint"
         url: "https://bham-my.sharepoint.com/personal/jmm974_student_bham_ac_uk/_layouts/15/guestaccess.aspx?share=EVQ-BpBnNXRFjQUFoqQ_BAkBabEzWIKT7x-Hr9xgAYXA-Q&e=mYVzjv"
 
-  - start: "15:15"
-    end: "15:25"
+  - type: break
+    start: "14:50"
+    end: "15:05"
+    label: "Coffee and networking break"
+
+  - start: "15:05"
+    end: "15:15"
     speaker: "Eddie Bannister"
     title: "The Formation of Ultracold Rubidium Strontium Molecules"
     group: "Cold Atoms"
@@ -118,8 +103,8 @@ talks:
       - text: "PowerPoint"
         url: "https://bham-my.sharepoint.com/personal/jmm974_student_bham_ac_uk/_layouts/15/guestaccess.aspx?share=ER0icTgcapxFnNzdT4EYn80BDP-tp-VUBKahfmNs55ezbw&e=ar1o0g"
 
-  - start: "15:25"
-    end: "15:35"
+  - start: "15:15"
+    end: "15:25"
     speaker: "Aidan Brzakalik"
     title: "Large momentum transfer atom interferometry for ultra-precise quantum sensors"
     group: "Quantum Sensing Group"
@@ -133,8 +118,8 @@ talks:
       - text: "PowerPoint"
         url: "https://bham-my.sharepoint.com/personal/jmm974_student_bham_ac_uk/_layouts/15/guestaccess.aspx?share=EQJ-Leg0A_NOoK8PV-lsBJUBSOB57JkINAoH4YABnpBtFw&e=6Px6jO"
 
-  - start: "15:35"
-    end: "15:45"
+  - start: "15:25"
+    end: "15:35"
     speaker: "Thomas Thory-Rao"
     title: "ATLAS ITk Upgrade"
     group: "Particle Physics"
@@ -144,7 +129,7 @@ talks:
       - text: "PDF"
         file: "assets/events/mini-talks-2025/flash_talk_Thomas.pdf"
 
-  - start: "15:45"
+  - start: "15:35"
     end: "16:00"
     speaker: "Panel Discussion"
     title: "Q&A and Closing Remarks"
