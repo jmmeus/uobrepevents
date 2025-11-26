@@ -63,7 +63,7 @@ talks:
     title: "Topological Responses in 2D Quasicrystals"
     group: "Theoretical Physics"
     abstract: |
-      Abstract to be confirmed.
+      Quasi-crystals are materials with broken translational invariance while maintaining long-range order. Recent research has considered topological effects in 1D quasi-crystals and discovered they are surprisingly robust to disorder. My project considers the effects of disorder on topological phases of 2D quasicrystals. In my talk I will discuss the basics of topological responses and how these can be applied to quasicrystals.
     links:
       - text: "PDF"
         file: "assets/events/mini-talks-2025/PGR_Mini_Talks_Presentation_Dylan.pdf"
@@ -79,9 +79,9 @@ talks:
       Over 6000 exoplanets have been discovered outside of our solar system some of which orbit not just one star but two (also known as binaries). These unique planets are known as circumbinary planets and have proven difficult to detect via all exoplanet detection methods. Despite the radial velocity method being one of the most effective ways of detecting planets around single stars, only seven circumbinary planets have been detected this way. The BEBOP (Binaries Escorted By Orbiting Planets) radial velocity survey aims to detect more circumbinary planets with radial velocities extending the search into double-lined binaries where radial velocity detections are particularly challenging. In this talk I will give a brief introduction to circumbinary planets and an overview of the results of the BEBOP radial velocity survey so far.
     links:
       - text: "PDF"
-        file: "assets/events/mini-talks-2025/PGR_reps_mini_talk_Aleyna.pdf"
+        file: "assets/events/mini-talks-2025/PGR_reps_mini_talk_Aleyna2.pdf"
       - text: "PowerPoint"
-        url: "https://bham-my.sharepoint.com/personal/jmm974_student_bham_ac_uk/_layouts/15/guestaccess.aspx?share=ET_RpR2UVy9BnC56UP-lGuEBglhGuwKSuUG-rWehHBRshQ&e=Eabuz8"
+        url: "https://bham-my.sharepoint.com/personal/jmm974_student_bham_ac_uk/_layouts/15/guestaccess.aspx?share=EVltAK0-7tZMv4tFoh9I6q0BzsYldf-1x-W4d6ZLbkC-tA&e=OnDarC"
 
   - type: break
     start: "14:50"
