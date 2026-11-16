@@ -929,7 +929,7 @@ content: >
 - **Technical issues**: Check [Troubleshooting](#troubleshooting)
 - **Jekyll docs**: https://jekyllrb.com/docs/
 - **Liquid syntax**: https://shopify.github.io/liquid/
-- **Repository issues**: [GitHub Issues](https://github.com/username/repo/issues)
+- **Repository issues**: [GitHub Issues](https://github.com/jmmeus/uobrepevents/issues)
 
 ---
 
