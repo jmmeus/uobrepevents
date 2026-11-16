@@ -27,6 +27,9 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+# Publish events dated in the future (upcoming events are the main use case)
+future: true
+
 # Timezone (adjust as needed)
 timezone: Europe/London
 
