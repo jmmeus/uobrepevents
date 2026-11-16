@@ -26,10 +26,12 @@ This document provides complete guidelines for adding, managing, and customizing
    mkdir -p _events/my-event-slug
    ```
 
-2. **Create `index.md`** with layout reference:
+2. **Create `index.md`** with layout reference, page title and date:
    ```yaml
    ---
    layout: rota
+   title: "My Event 2025"        # browser tab title: event + year
+   date: 2025-04-15              # must match the data file; used to sort the index page
    permalink: /events/my-event-slug/
    ---
    ```
@@ -629,7 +631,7 @@ github:
 2. ✅ Data file exists in `_data/events/[slug].yml`
 3. ✅ Slug matches in both locations
 4. ✅ YAML syntax is valid (use validator)
-5. ✅ `date` field is present and properly formatted
+5. ✅ `date` field is present and properly formatted (in both the data file and `index.md` front matter)
 6. ✅ Jekyll server restarted after adding event
 
 ### Event Page Shows 404
@@ -711,6 +713,8 @@ talks:
 ```yaml
 ---
 layout: rota
+title: "May Seminar 2025"
+date: 2025-05-15
 permalink: /events/seminar-may/
 ---
 ```
@@ -889,7 +893,7 @@ bundle exec jekyll serve --drafts
 ### File Checklist for New Event
 
 - [ ] `_data/events/[slug].yml` - Event data
-- [ ] `_events/[slug]/index.md` - Page definition
+- [ ] `_events/[slug]/index.md` - Page definition (with `layout`, `title`, `date`, `permalink`)
 - [ ] `assets/events/[slug]/` - Asset files (if needed)
 - [ ] All required YAML fields present
 - [ ] Slug follows naming conventions
@@ -925,8 +929,8 @@ content: >
 - **Technical issues**: Check [Troubleshooting](#troubleshooting)
 - **Jekyll docs**: https://jekyllrb.com/docs/
 - **Liquid syntax**: https://shopify.github.io/liquid/
-- **Repository issues**: [GitHub Issues](https://github.com/username/repo/issues)
+- **Repository issues**: [GitHub Issues](https://github.com/jmmeus/uobrepevents/issues)
 
 ---
 
-*Last updated: 2025-11-14*
+*Last updated: 2026-11-16*
