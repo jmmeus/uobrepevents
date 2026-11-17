@@ -10,22 +10,67 @@ description: "An opportunity for PhD students to practice presenting, to share k
 talks:
   - start: "13:30"
     end: "13:40"
+    speaker: "George Hookway"
+    title: "Asteroseismology (or wobbly stars)"
+    group: "Sun, Stars and Exoplanets"
+    abstract: |
+      Much like jelly, stars wobble. These internal waves generate oscillations visible on the surface. By measuring the frequencies of these oscillations we can learn a lot about these stars, such as their radius, mass, age and composition. My PhD is focused on the identification and characterisation of the modes of oscillation in stars similar to our Sun.
+
+  - start: "13:40"
+    end: "13:50"
     speaker: "Tom Catanach"
     title: "How and why to construct an atomic clock for TAI"
     group: "Quantum Technologies"
     abstract: |
       Atomic clocks have defined the SI second via the caesium standard since 1967. This standard forms the basis of GPS and GNSS, and is a fundamental metrological unit for all of experimental physics. The International Atomic Time (*temps atomique international*, TAI) standard aims to redefine the second via the development of an international network of modern optical clocks operating with fractional uncertainties at the 10⁻¹⁸ level, sometimes misleadingly associated with an inaccuracy corresponding to one second over the age of the universe. The new standard will be constructed from contributions by experiments utilising electron transitions in a number of elements, including Sr, Yb, Hg, Lu and more, all operating at different absolute frequencies. This requires not only exceptional control of external electromagnetic and gravitational shifts on an atomic transition, but also the capacity to translate such accuracy and precision between laboratories internationally. This talk will delve into the physics, design, and methods utilised at UoB to develop relocatable atomic clocks that operate at the 10⁻¹⁸ level.
 
-  - start: "13:40"
-    end: "13:50"
+  - start: "13:50"
+    end: "14:00"
+    speaker: "Samira Said"
+    title: "An In Situ Tunable Uniaxial Stress Cell for ARPES"
+    group: "Condensed Matter"
+    abstract: |
+      Stress tuning as a probing technique has been used with great success to unlock the hidden complexities of quantum materials. Combined with angle-resolved photoemission spectroscopy (ARPES), a technique to directly access the band structure of materials, it can be used to understand superconductivity, magnetism and the behaviour of a range of ordered phases. This talk will discuss a new design for a uniaxial stress cell, custom designed for the nano-ARPES end station at Diamond Light Source, that will be made available to all end station users.
+
+  - start: "14:00"
+    end: "14:10"
+    speaker: "Barnaby Spooner"
+    title: "Detecting the First Gravitationally Lensed Gamma-Ray Burst"
+    group: "Astrophysics & Space Research"
+    abstract: |
+      Gravitational lensing offers many exciting opportunities across astrophysics, cosmology, and fundamental physics. Gamma-ray bursts that have been gravitationally lensed offer the opportunity to constrain the Hubble constant to extremely high precision and can be very precise probes of the dark matter substructure in the Universe. To date, however, a lensed gamma-ray burst is yet to be discovered, primarily because of the difficulty in finding their position on the sky. In this talk, I will introduce the topic of gravitationally lensed gamma-ray bursts and talk about my work, as well as the wider research being done in Birmingham, in trying to make the first ever detection of this rare phenomenon.
+
+  - start: "14:10"
+    end: "14:20"
     speaker: "Gabriel Almeida"
     title: "Can exchanging space and time teach us about quantum dynamics?"
     group: "Theoretical Physics"
     abstract: |
       The dynamics of a quantum system can be viewed either as a unitary evolution in time or as a non-unitary evolution in space. Surprisingly, this space-time duality can provide useful insights into quantum dynamics. In particular, it offers a way to understand how a large quantum system can act as its own bath, allowing smaller subsystems to thermalise, and how certain non-equilibrium quantities can be expressed in terms of stationary ones. But when can this approach be used efficiently? During my PhD, I will investigate this question in integrable quantum systems.
 
-  - start: "13:50"
-    end: "14:00"
+  - type: break
+    start: "14:20"
+    end: "14:35"
+    label: "Coffee and networking break"
+
+  - start: "14:35"
+    end: "14:45"
+    speaker: "Ceyhan Sam"
+    title: "The Kaon Identification System for the NA62 Experiment at CERN"
+    group: "Particle Physics"
+    abstract: |
+      The NA62 experiment at CERN is a fixed-target experiment dedicated to studying rare kaon decays. A 400 GeV/c proton beam from the Super Proton Synchrotron (SPS) produces a 75 GeV/c secondary hadron beam with only a 6% K⁺ component, which requires tagging in flight with a timing resolution of &lt;100 ps. The kaon identification system (KTAG) is formed from a differential Cherenkov counter with achromatic ring focus (CEDAR) coupled to a bespoke photon-detection system built by the University of Birmingham, and tags incoming kaons with a timing resolution of ~66 ps and an efficiency of &gt;99%.
+
+  - start: "14:45"
+    end: "14:55"
+    speaker: "William Parfitt"
+    title: "Phonon-Exciton Polaritons in Plasmonic Nanocavities"
+    group: "Metamaterials and Nanophotonics"
+    abstract: |
+      Quantum emitters within nanoplasmonic cavities offer an effective method of achieving strong light-matter coupling through extreme electromagnetic field confinement. Using dual-wavelength nanoantennae and the IR-active molecular vibrational modes of quantum emitters allows us to couple to the molecule at both visible and infrared frequencies, enabling simultaneous excitation and mixing of both excitonic and phononic polariton modes. By understanding the behaviour of these sorts of systems, we aim to design and model systems that can sensitively interact with IR light without requiring cryogenic temperatures.
+
+  - start: "14:55"
+    end: "15:05"
     speaker: "Matt Clay"
     title: "Self-broadening in Exoplanet Atmospheres"
     group: "Sun, Stars and Exoplanets"
@@ -36,16 +81,8 @@ talks:
 
       We determine for which molecules updated cross sections may be needed as ever-smaller exoplanets are being observed, as these are likely to have higher-metallicity secondary atmospheres for which the H₂- and He-broadening assumption may not be sufficient.
 
-  - start: "14:00"
-    end: "14:10"
-    speaker: "Ceyhan Sam"
-    title: "The Kaon Identification System for the NA62 Experiment at CERN"
-    group: "Particle Physics"
-    abstract: |
-      The NA62 experiment at CERN is a fixed-target experiment dedicated to studying rare kaon decays. A 400 GeV/c proton beam from the Super Proton Synchrotron (SPS) produces a 75 GeV/c secondary hadron beam with only a 6% K⁺ component, which requires tagging in flight with a timing resolution of &lt;100 ps. The kaon identification system (KTAG) is formed from a differential Cherenkov counter with achromatic ring focus (CEDAR) coupled to a bespoke photon-detection system built by the University of Birmingham, and tags incoming kaons with a timing resolution of ~66 ps and an efficiency of &gt;99%.
-
-  - start: "14:10"
-    end: "14:20"
+  - start: "15:05"
+    end: "15:15"
     speaker: "Pete Walters"
     title: "DarkSPHERE: Searching for Dark Matter in the Yorkshire Moors"
     group: "Particle Physics"
@@ -53,43 +90,6 @@ talks:
       The spherical proportional counter, a novel gaseous detector, has been employed in direct, low-mass particle dark matter (DM) searches thanks to its radiopure material construction, single-electron energy threshold, and flexibility to operate with a range of gases. Gases containing low-mass nuclei such as hydrogen, carbon, and neon are used in the detector to provide good kinematic matching to sub-GeV particle DM.
 
       The design of a proposed future experiment, DarkSPHERE, which could be operated in the Boulby Underground Laboratory, is well underway. Gas mixtures containing combinations of He, Ne, CH₄, and i-C₄H₁₀, intended for use in DarkSPHERE, require characterisation in the detector, for example by measuring electron drift times and gas gains. Measurements of these properties using a UV laser calibration system will be presented, along with comparison to Monte Carlo simulations.
-
-  - type: break
-    start: "14:20"
-    end: "14:35"
-    label: "Coffee and networking break"
-
-  - start: "14:35"
-    end: "14:45"
-    speaker: "George Hookway"
-    title: "Asteroseismology (or wobbly stars)"
-    group: "Sun, Stars and Exoplanets"
-    abstract: |
-      Much like jelly, stars wobble. These internal waves generate oscillations visible on the surface. By measuring the frequencies of these oscillations we can learn a lot about these stars, such as their radius, mass, age and composition. My PhD is focused on the identification and characterisation of the modes of oscillation in stars similar to our Sun.
-
-  - start: "14:45"
-    end: "14:55"
-    speaker: "Barnaby Spooner"
-    title: "Detecting the First Gravitationally Lensed Gamma-Ray Burst"
-    group: "Astrophysics & Space Research"
-    abstract: |
-      Gravitational lensing offers many exciting opportunities across astrophysics, cosmology, and fundamental physics. Gamma-ray bursts that have been gravitationally lensed offer the opportunity to constrain the Hubble constant to extremely high precision and can be very precise probes of the dark matter substructure in the Universe. To date, however, a lensed gamma-ray burst is yet to be discovered, primarily because of the difficulty in finding their position on the sky. In this talk, I will introduce the topic of gravitationally lensed gamma-ray bursts and talk about my work, as well as the wider research being done in Birmingham, in trying to make the first ever detection of this rare phenomenon.
-
-  - start: "14:55"
-    end: "15:05"
-    speaker: "Samira Said"
-    title: "An In Situ Tunable Uniaxial Stress Cell for ARPES"
-    group: "Condensed Matter"
-    abstract: |
-      Stress tuning as a probing technique has been used with great success to unlock the hidden complexities of quantum materials. Combined with angle-resolved photoemission spectroscopy (ARPES), a technique to directly access the band structure of materials, it can be used to understand superconductivity, magnetism and the behaviour of a range of ordered phases. This talk will discuss a new design for a uniaxial stress cell, custom designed for the nano-ARPES end station at Diamond Light Source, that will be made available to all end station users.
-
-  - start: "15:05"
-    end: "15:15"
-    speaker: "William Parfitt"
-    title: "Phonon-Exciton Polaritons in Plasmonic Nanocavities"
-    group: "Metamaterials and Nanophotonics"
-    abstract: |
-      Quantum emitters within nanoplasmonic cavities offer an effective method of achieving strong light-matter coupling through extreme electromagnetic field confinement. Using dual-wavelength nanoantennae and the IR-active molecular vibrational modes of quantum emitters allows us to couple to the molecule at both visible and infrared frequencies, enabling simultaneous excitation and mixing of both excitonic and phononic polariton modes. By understanding the behaviour of these sorts of systems, we aim to design and model systems that can sensitively interact with IR light without requiring cryogenic temperatures.
 
   - start: "15:15"
     end: "15:30"
