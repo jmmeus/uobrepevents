@@ -10,19 +10,19 @@ description: "An opportunity for PhD students to practice presenting, to share k
 talks:
   - start: "13:30"
     end: "13:40"
-    speaker: "George Hookway"
-    title: "Asteroseismology (or wobbly stars)"
-    group: "Sun, Stars and Exoplanets"
-    abstract: |
-      Much like jelly, stars wobble. These internal waves generate oscillations visible on the surface. By measuring the frequencies of these oscillations we can learn a lot about these stars, such as their radius, mass, age and composition. My PhD is focused on the identification and characterisation of the modes of oscillation in stars similar to our Sun.
-
-  - start: "13:40"
-    end: "13:50"
     speaker: "Tom Catanach"
     title: "How and why to construct an atomic clock for TAI"
     group: "Quantum Technologies"
     abstract: |
       Atomic clocks have defined the SI second via the caesium standard since 1967. This standard forms the basis of GPS and GNSS, and is a fundamental metrological unit for all of experimental physics. The International Atomic Time (*temps atomique international*, TAI) standard aims to redefine the second via the development of an international network of modern optical clocks operating with fractional uncertainties at the 10⁻¹⁸ level, sometimes misleadingly associated with an inaccuracy corresponding to one second over the age of the universe. The new standard will be constructed from contributions by experiments utilising electron transitions in a number of elements, including Sr, Yb, Hg, Lu and more, all operating at different absolute frequencies. This requires not only exceptional control of external electromagnetic and gravitational shifts on an atomic transition, but also the capacity to translate such accuracy and precision between laboratories internationally. This talk will delve into the physics, design, and methods utilised at UoB to develop relocatable atomic clocks that operate at the 10⁻¹⁸ level.
+
+  - start: "13:40"
+    end: "13:50"
+    speaker: "George Hookway"
+    title: "Asteroseismology (or wobbly stars)"
+    group: "Sun, Stars and Exoplanets"
+    abstract: |
+      Much like jelly, stars wobble. These internal waves generate oscillations visible on the surface. By measuring the frequencies of these oscillations we can learn a lot about these stars, such as their radius, mass, age and composition. My PhD is focused on the identification and characterisation of the modes of oscillation in stars similar to our Sun.
 
   - start: "13:50"
     end: "14:00"
